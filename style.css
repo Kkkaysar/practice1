@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 100%, 74%);
+    background-image: url('./images/bg-intro-desktop.png');
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    padding: 40px;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+.container > div {
+    flex: 1;
+}
